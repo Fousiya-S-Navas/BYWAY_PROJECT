@@ -1,0 +1,1114 @@
+*{margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: sans-serif;
+	font-size: 17px;
+	color: #253858;
+	overflow-x: hidden;
+	min-width:320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "sans-serif";
+	font-weight: 500;
+}
+
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #42526E;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	
+	margin: 0 auto;
+    width:90%;
+    
+	
+}
+
+
+::placeholder {
+  color: #C0CCDA;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #C0CCDA;
+}
+
+::-ms-input-placeholder {
+  color: #C0CCDA;
+}
+header { 
+border-bottom: 1px solid rgb(238, 234, 234);
+}
+
+header .container { 
+display: flex;
+justify-content: space-between;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+
+
+}
+
+header .container .left { 
+margin-bottom: 10px;
+
+}
+
+
+header .container .left .container p { 
+font-weight: bold;
+margin-top: 5px;
+}
+
+
+header .container .right .container ul { 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .container .right .container ul li { 
+margin-right: 22px;
+}
+
+header .container .right .container ul li a { 
+ border: 1px solid#253858;
+ padding: 8px;
+ 
+}
+header .container .right .container ul li span a{
+    background-color: #253858;
+    color: white;
+    padding: 8px;
+}
+
+
+#frame .wrapper .container { 
+display: flex;
+justify-content: space-between;
+}
+
+#frame .wrapper .container .left { 
+width:29%;
+}
+
+#frame .wrapper .container .left h2 { 
+font-weight: bolder;
+font-size: 40px;
+font-weight: 900;
+margin-top: 35%;
+margin-bottom: 20px;
+color: black;
+
+
+}
+
+#frame .wrapper .container .left p { 
+font-size: 18px;
+margin-bottom: 25px;
+}
+
+#frame .wrapper .container .left .button { 
+ background-color:#0e8ce0;
+ color: white;
+ padding: 15px 20px;
+ border-radius:8px
+ 
+}
+#category { 
+    background-color: rgb(244, 248, 252);
+    margin-top: 25px;
+}
+
+
+
+#category .wrapper .container ul { 
+    display: flex;
+    justify-content: space-between;
+    padding:  40px;
+    
+} 
+
+#category .wrapper .container ul li { 
+    border-right: 5px solid lightgray;
+    
+    padding-right:10%;
+    margin-left: 10px;
+    
+    
+}  
+#category .wrapper .container ul li.x{
+    border-right: none;
+    margin-right: -10%;
+}
+    
+ 
+     
+
+
+#category .wrapper .container ul li h4 { 
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  
+  
+}
+
+#category .wrapper .container ul li p { 
+    font-size: 20px;
+    
+    
+}
+#top { 
+ margin-top: 5%;
+}
+
+
+#top .wrapper .container { 
+display: flex;
+
+}
+
+#top .wrapper .container .left { 
+    width: 92%;
+}
+
+
+#top .wrapper .container .left h4 { 
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+
+
+
+#top .wrapper .container .right a { 
+color: #3b3be4;
+font-size:15px;
+text-align: left;
+}
+ #top .item { 
+ margin-top: 30px;
+ 
+ 
+
+}
+
+#top .item ul { 
+    display: flex;
+    
+    
+    
+}
+
+#top .item ul li { 
+    
+   
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+    
+    padding: 20px 6.2%;
+    margin-right: 50px;
+    border-radius: 6px;
+    width: 70%;
+    margin-bottom: 50px;
+
+
+    
+
+    
+}
+
+
+#top .item ul li h6{
+    width: 100px;
+    height: 100px;
+    background: #e1f2fa;
+    border-radius: 50%;
+}
+#top .item ul li h6 img { 
+ width: 70%;
+ margin-left: 15px;
+ margin-top:20px;
+ 
+}
+
+
+#top .item ul li h4 { 
+ text-align: center;
+ margin-bottom: 10px;
+ font-weight: bold;
+ margin-top: 10px;
+ margin-right: 28px;
+ font-size: 20px;
+ color: black;
+ 
+}
+
+#top .item ul li p { 
+text-align: center;
+margin-right: 10px;
+}
+#courses { 
+ margin-top: 30px;
+ 
+
+}
+
+
+
+#courses .wrapper .container { 
+display: flex;
+
+}
+
+#courses .wrapper .container .left { 
+width: 92%;
+}
+
+#courses .wrapper .container .left h4 { 
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+    
+}
+
+
+
+#courses .wrapper .container .right a { 
+font-size: 15px;
+color: #3b3be4;
+
+}
+
+#courses .wrapper .item { 
+width: 100%;
+
+ 
+ 
+ 
+}
+
+#courses .wrapper .item ul { 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    
+    
+}
+
+#courses .wrapper .item ul li { 
+   
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+#courses .wrapper .item ul li img.main{
+    width: 100%;
+    }
+
+  
+
+
+#courses .wrapper .item ul li h5 { 
+  font-size: 20px;
+  font-weight:bold;
+  color: black;
+  
+}
+
+#courses .wrapper .item ul li p { 
+font-size: 16px;
+color: #334155;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+#courses .wrapper .item ul li span { 
+ font-size: 15px;
+ text-align: center;
+ font-weight: bold;
+ 
+ 
+}
+
+#courses .wrapper .item ul li span img { 
+align-items: center;
+
+
+}
+
+
+
+#courses .wrapper .item ul li small { 
+   font-size: 16px;
+   
+
+}
+
+#courses .wrapper .item ul li h5 { 
+font-weight: bold;
+}
+#instructors { 
+margin: 5% 0;
+width: 96%;
+}
+
+
+#instructors .wrapper .container { 
+display: flex;
+justify-content: space-between;
+}
+
+
+
+#instructors .wrapper .container .left h4 { 
+ font-size: 30px;
+ color: black;
+ font-weight: bold;
+}
+
+
+
+#instructors .wrapper .container .right a { 
+
+font-size: 15px;
+color: #3b3be4;
+
+}
+
+#instructors .wrapper .item { 
+margin-top: 2%;
+
+}
+
+
+#instructors .wrapper .item ul { 
+    display: flex;
+    
+}
+
+#instructors .wrapper .item ul li { 
+
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+    padding: 20px;
+    margin-right: 8%;
+    border-radius: 10px;
+    
+}
+#instructors .wrapper .item ul li img{
+    width: 100%;
+}
+
+
+
+#instructors .wrapper .item ul li h1{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: black;
+}
+#instructors .wrapper .item ul li h4 { 
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+#instructors .wrapper .item ul li hr { 
+border-bottom: 1px solid rgb(227, 230, 231);
+margin-bottom: 12px;
+
+}
+
+#instructors .wrapper .item ul li .bottom { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#instructors .wrapper .item ul li .bottom small { 
+    display: flex;
+}
+
+
+
+#instructors .wrapper .item ul li .bottom small p { 
+ margin-left: 20%;
+ font-weight: bold;
+ color: black;
+}
+
+#instructors .wrapper .item ul li .bottom p { 
+font-weight: bold;
+font-size: 15px;
+
+}
+#feedback { 
+    background-color: #f8fafc;
+    padding-bottom: 5%;
+    
+
+}
+
+#feedback .wrapper { 
+height: 50vh;
+}
+
+#feedback .wrapper .container { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#feedback .wrapper .container .left h1 { 
+font-size: 30px;
+font-weight: bold;
+margin-top: 10%;
+color: black;
+}
+
+#feedback .wrapper .container .right { 
+    margin-top: 5%;
+}
+
+#feedback .wrapper .container .right a img.one{
+    background-color: #a7aab1;
+    padding: 10px 22px;
+    margin-right:10px;
+    
+    border-radius: 4px;
+    align-items:left;
+}
+#feedback .wrapper .container .right a img.two{
+    background-color: #a7aab1;
+    padding:10px 22px ;
+    margin-right:10px;
+    border-radius: 4px;
+    align-items:left;
+}
+
+#feedback .wrapper .box { 
+    
+    margin-top: 50px;
+}
+
+#feedback .wrapper .box ul { 
+    display: flex;
+    
+}
+
+#feedback .wrapper .box ul li { 
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+  
+}
+
+#feedback .wrapper .box ul li img { 
+margin-top: 20px;
+margin-left: 2%;
+}
+
+#feedback .wrapper .box ul li p { 
+
+margin-top: 8%;
+margin-left: 2%;
+color: rgb(39, 38, 38);
+}
+
+#feedback .wrapper .box ul li .bottom { 
+display: flex;
+
+}
+
+#feedback .wrapper .box ul li .bottom img { 
+border-radius: 50%;
+
+
+}
+
+#feedback .wrapper .box ul li .bottom h4 { 
+margin-top: 20px;
+margin-left: 10px;
+font-weight: bold;
+font-size: 15px;
+color: black;
+}
+
+#feedback .wrapper .box ul li .bottom p { 
+margin-left: 10px;
+}
+#testimonial { 
+margin-top: 5%;
+}
+
+
+
+#testimonial .wrapper .container { 
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 30px;
+}
+
+
+
+#testimonial .wrapper .container .content_box h3 { 
+margin-top: 25%;
+
+margin-bottom: 5%;
+font-size: 20px;
+font-weight: bold;
+}
+
+#testimonial .wrapper .container .content_box p { 
+
+margin-bottom: 5%;
+font-size: 16px;
+}
+
+#testimonial .wrapper .container .content_box .button { 
+
+background-color: black;
+padding: 8px;
+color: white;
+border-radius: 8px;
+margin-top: 5%;
+font-size: 14px;
+}
+
+
+footer { 
+background-color: #1e293b;
+padding: 5% 0;;
+}
+
+
+
+
+
+footer .wrapper .container { 
+display: flex;
+align-items: center;
+}
+footer .wrapper .container .left { 
+    width: 30%;
+}
+
+
+footer .wrapper .container .left h1 { 
+margin-bottom: 15px;
+}
+
+footer .wrapper .container .left h1 a { 
+display: inline-flex;
+align-items: center;
+color: #fff;
+font-size: 22px;
+}
+
+
+
+footer .wrapper .container .left p { 
+color: #bcbdc4;
+line-height: 1.6em;
+}
+
+
+
+footer .wrapper .container .right { 
+display: flex;
+justify-content: space-between;
+width: 50%;
+margin-left: 50px;
+}
+
+footer .wrapper .container .right .item { 
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+footer .wrapper .container .right .item h3 { 
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+footer .wrapper .container .right .item .logo small { 
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: inline-block;
+margin-top: 20px;
+margin-right: 10px;
+background-image: url(../assets/social-media.jpg);
+}
+
+
+footer .wrapper .container .right .item ul li a { 
+    color: #bcbdc4;
+    font-size: 15px;
+    line-height: 2;
+}
+footer .wrapper .container .right .item .logo small:nth-child(2){
+background-position: -65px;
+}
+footer .wrapper .container .right .item .logo small:nth-child(3){
+    background-position: -128px;
+}
+footer .wrapper .container .right .item .logo small:nth-child(4){
+    background-position: -192px;
+}
+footer .wrapper .container .right .item .logo small:nth-child(5){
+    background-position: -256px;
+}
+
+
+
+@media all and (max-width:1280px){
+    #frame .wrapper .container .right img{
+        margin: 20px 0;
+    }
+#category .wrapper .container ul{
+    flex-wrap: wrap;
+}
+#category .wrapper .container ul li{
+width: 30%;
+margin-left: 20%;
+}
+#category .wrapper .container ul li p {
+    margin-left: 20%;
+}
+#category .wrapper .container ul li.x{
+    margin-right: 0;
+}
+#category .wrapper .container ul li.a{
+    border: none;
+}
+#top .item ul li {
+    margin-right: 30px;
+}
+#courses .wrapper .item ul{
+    flex-wrap: wrap;
+    
+}
+#category .wrapper .container ul li h4 {
+    font-size: 38px;
+}
+#category .wrapper .container ul li p{
+    font-size: 18px;
+}
+
+#courses .wrapper .item ul li{
+   width: 45%;
+   margin-bottom: 20px;
+   margin-right: 10px;
+   
+   
+   
+   
+}
+#instructors .wrapper .item ul{
+    flex-wrap: wrap;
+    
+}
+#instructors .wrapper .item ul li{
+    width: 25%;
+    margin-bottom: 20px;
+}
+footer .wrapper .container .right{
+    width: 100%;
+}
+}
+
+@media all and (max-width:980px){
+    #frame .wrapper .container .left{
+      width: 50%;
+    }
+    #testimonial {
+        margin-top: 20%;
+    }
+    #top .item ul {
+        flex-wrap: wrap;
+      }
+      #top .item ul li{
+        width: 30%;
+      }
+      #category .wrapper .container ul{
+        width: 100%;
+      }
+      #category .wrapper .container ul li h4 {
+        font-size: 35px;
+      }
+      #category .wrapper .container ul li {
+        border-right: none;
+      }
+        
+      
+      #instructors .wrapper .item ul li{
+        width: 35%;
+      }
+      #feedback.wrapper.item ul{
+         flex-wrap: wrap;
+      }
+      #feedback.wrapper.item ul li{
+        width: 50%;
+      }
+      #testimonial .wrapper .container .content_box h3{
+        margin-left: 10px;
+    }
+    #testimonial .wrapper .container .content_box p{
+        margin-left: 10px;
+    }
+#testimonial .wrapper .container .content_box .button{
+        font-size: 16px;
+        padding: 8px;
+        margin-left: 10px;
+    }
+}
+@media all and (max-width:768px){
+    #frame .wrapper .container .left p{
+        font-size: 15px;
+        
+      }
+      
+    #frame .wrapper .container .left h2{
+       font-size: 30px;
+      }
+      #frame .wrapper .container .right img{
+        width: 100%;
+        opacity: 1;
+       }
+      
+      #frame .wrapper .container .left a.button{
+        font-size: 10px;
+        padding: 8px;
+      }
+      #category .wrapper .container ul li p {
+        font-size: 12px;
+      }
+      #top .item ul {
+        flex-wrap: wrap;
+      }
+      #top .item ul li{
+        width: 30%;
+        margin-right: 20%;
+      }
+      #instructors .wrapper .item ul li{
+        width: 30%;
+        margin-right: 20px;
+    }
+    #courses .wrapper .item ul li{
+        width: 50%;
+        
+        
+    }
+    #testimonial .wrapper .container .content_box h3{
+        margin-left: 10px;
+    }
+    #testimonial .wrapper .container .content_box p{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    #testimonial .wrapper .container .content_box .button{
+        font-size: 16px;
+        padding: 8px;
+        margin-left: 10px;
+    }
+    footer .wrapper .container{
+        flex-wrap: wrap;
+
+        margin-right: 10px;
+        justify-content: space-between;
+        
+    }
+    footer .wrapper .container .left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #testimonial{
+        margin-top: 20%;
+    }
+
+   
+}
+@media all and (max-width:640px){
+    #frame .wrapper .container .left h2{
+        font-size: 30px;
+    }
+    
+   #frame .wrapper .container .right img{
+    width: 100%;
+    
+   }
+   #category .wrapper .container ul li p{
+    font-size: 10px;
+   }
+   #top .wrapper .container .left h4 {
+    font-size: 20px;
+   }
+   #top .wrapper .container .right a{
+ font-size: 10px;
+ 
+ 
+   }
+   
+   
+   #top .wrapper .container{
+    width: 80%;
+   }
+   #top .item ul li h4{
+    font-size: 15px;
+   }
+   #top .item ul li  p{
+    font-size: 10px;
+   }
+   
+   
+   #courses .wrapper .container .left h4 {
+    font-size: 20px;
+   }
+   #courses .wrapper .container .right a{
+    font-size: 10px;
+   }
+   #courses .wrapper .item ul li {
+    width: 100%;
+   }
+  #courses .wrapper .container{
+    width: 80%;
+  }
+  #instructors .wrapper .container .left h4{
+    font-size: 20px;
+  }
+  #instructors .wrapper .container .right a{
+  font-size: 10px;
+  }
+  #instructors .wrapper .container{
+    width: 80%;
+  }
+  #instructors .wrapper .item ul li{
+    width: 40%;
+  }
+  #feedback{
+    height: 70vh;
+  }
+  #feedback .wrapper .container .left h1 {
+    font-size: 20px;
+  }
+  #feedback .wrapper .box ul{
+    flex-wrap: wrap;
+  }
+  #testimonial{
+    margin-top: 80%;
+  }
+  #testimonial .wrapper .container .left img{
+    width: 100%;
+    
+  }
+  #testimonial .wrapper .container .content_box{
+    width: 100%;
+    z-index: 1;
+  }
+  #testimonial .wrapper .container .right img{
+
+    width: 100%;
+  }
+  
+  .container .content_box .button{
+    font-size: 12px;
+  }
+footer{
+    margin-top: 10%;
+}
+}
+@media all and (max-width:480px){
+    #frame .wrapper .container .left {
+        width: 100%;
+    }
+    #category .wrapper .container ul li h4 {
+        font-size: 30px;
+    }
+    #category .wrapper .container ul li p{
+        font-size: 8px;
+    } 
+    #top .wrapper .container .left h4{
+        font-size: 18px;
+    }
+    #top .wrapper .container .right a{
+        font-size: 8px;
+    }
+    #feedback .wrapper .box ul li{
+        margin-bottom: 10px;
+    }
+    
+        #top .item ul li h4{
+            font-size: 12px;
+        }
+        #instructors .wrapper .item ul li{
+            width: 100%;
+        }
+        #testimonial{
+            margin-top: 30%;
+        }
+        #feedback{
+            height: 100vh;
+        }
+        #testimonial .wrapper .container .content_box .button{
+            font-size: 10px;
+        }
+        #testimonial .wrapper .container .content_box .button img{
+            width: 7px;
+        }
+    #top .item ul li h6 img{
+        width: 50%;
+    }
+    #top .item ul li h6 {
+        width: 60px;
+        height: 60px;
+    }
+        footer.container{
+           width: 50%; 
+        }
+        #courses .wrapper .container .right a{
+            font-size:8px;
+            
+        }
+        footer .wrapper .container .right {
+            flex-wrap: wrap;
+        }
+        footer .wrapper .container .right {
+            width: 100%;
+        }
+}
+@media all and (max-width:360px){
+    #testimonial{
+      margin-top: 50%;
+    }
+    #testimonial .wrapper .container .left img{
+        width: 100%;
+        opacity: .5;
+    }
+    #testimonial .wrapper .container .right img{
+        width: 100%;
+        opacity: .5;
+    }
+    #testimonial .wrapper .container .content_box{
+        position: absolute;
+    }
+    #feedback .wrapper .container .right a img.one{
+        display: none;
+      
+        
+    }
+    #feedback .wrapper .container .right a img.two{
+        display: none;
+   
+    }
+    #top .item ul li {
+        width: 30%;
+    }
+    #top .item ul li h4{
+        font-size: 10px;
+    }
+    #category .wrapper .container ul li{
+        width: 50%;
+    }
+    #frame .wrapper .container .right img{
+        width: 120%;
+    }
+    #frame .wrapper .container .right img{
+        display: none;
+    }
+    #frame .wrapper .container{
+        margin-bottom: 20px;
+    }
+    header .container .right .container ul{
+        display: none;
+    }
+    #courses .wrapper .container .right a{
+        font-size:6px;
+  
+    }
+    #top .wrapper .container .right a{
+        font-size: 6px;
+    }
+
+}  
+ @media all and (max-width:360px){
+    #courses .wrapper .item ul li{
+        width: 115%;
+    }
+
+ }
+ 
+   
+
+   
+  
+    
+   
+
+
+  
+
+
+
+
+
+
+
+
+
